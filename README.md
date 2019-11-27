@@ -26,7 +26,7 @@ Export Hangfire statistics to Prometheus. This exporter currently supports the M
 * __`mongoconnection`:__ The mongo connection where the exporter will get the metrics from (defaults to mongo://localhost:27017)
 * __`mongodatabase`:__ The mongo database name where the hangfire data will be on (defaults to hangfire)
 
-<!-- ## Using Docker
+## Using Docker
 
 You can deploy this exporter using the [samuel/hangfire-exporter](https://registry.hub.docker.com/u/samuel/hangfire-exporter/) Docker image.
 
@@ -35,8 +35,8 @@ For example:
 ```bash
 docker pull samueltorres/hangfire-exporter
 
-docker run -d -p 8888:8888 samueltorres/hangfire-exporter --consul.server=172.17.0.1:8500
+docker run -d -p 8888:8888 samueltorres/hangfire-exporter
 ```
 
 [circleci]: https://circleci.com/gh/samuel/hangfire_exporter
-[hub]: https://hub.docker.com/r/sameul/hangfire-exporter/ -->
+[hub]: https://hub.docker.com/r/sameul/hangfire-exporter/
