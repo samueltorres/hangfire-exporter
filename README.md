@@ -25,6 +25,7 @@ Export Hangfire statistics to Prometheus. This exporter currently supports the M
 * __`metricspath`:__ The metrics path where the metrics will be available on (defaults to /metrics)
 * __`mongoconnection`:__ The mongo connection where the exporter will get the metrics from (defaults to mongo://localhost:27017)
 * __`mongodatabase`:__ The mongo database name where the hangfire data will be on (defaults to hangfire)
+* __`sqlserverConnection`:__ The SQL Server connection  where the exporter will get the metrics from (defaults to server=localhost;port=1433;Database=Hangfire.Sample;Trusted_Connection=False;User ID=SA;Password=yourStrong(!)Password;")
 
 ## Using Docker
 
