@@ -2,6 +2,8 @@
 
 Export Hangfire statistics to Prometheus. This exporter currently supports the MongoDB database.
 
+[![CircleCI](https://circleci.com/gh/samueltorres/hangfire-exporter.svg?style=svg)](https://circleci.com/gh/samueltorres/hangfire-exporter)
+
 ## Exported Metrics
 
 | Metric | Meaning |
