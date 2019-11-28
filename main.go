@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	fs := flag.NewFlagSet("hangfire-migrator", flag.ExitOnError)
+	fs := flag.NewFlagSet("hangfire-exporter", flag.ExitOnError)
 	var (
 		listenAddress       = fs.String("listenaddress", ":8888", "listen address")
 		dbType              = fs.String("dbtype", "sqlserver", "the database type (mongo/sqlserver)")
