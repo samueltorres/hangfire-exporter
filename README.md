@@ -31,7 +31,7 @@ Export Hangfire statistics to Prometheus. This exporter currently supports the M
 
 ## Using Docker
 
-You can deploy this exporter using the [samuel/hangfire-exporter](https://hub.docker.com/r/samueltorres/hangfire-exporter/) Docker image.
+You can deploy this exporter using the [samueltorres/hangfire-exporter](https://hub.docker.com/r/samueltorres/hangfire-exporter/) Docker image.
 
 For example:
 
