@@ -1,6 +1,6 @@
 # Hangfire Exporter
 
-Export Hangfire statistics to Prometheus. This exporter currently supports the MongoDB database.
+Export Hangfire statistics to Prometheus. This exporter currently supports the MongoDB and SQL Server databases.
 
 [![CircleCI](https://circleci.com/gh/samueltorres/hangfire-exporter.svg?style=svg)](https://circleci.com/gh/samueltorres/hangfire-exporter)
 
